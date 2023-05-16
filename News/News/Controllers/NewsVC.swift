@@ -77,9 +77,9 @@ extension NewsVC: UITableViewDelegate, UITableViewDataSource  {
 
     }
 
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let newsDetailVC = storyboard?.instantiateViewController(withIdentifier: "NewsDetailVC") as! NewsDetailVC
-//        newsDetailVC.news = news[indexPath.row]
-//        navigationController?.pushViewController(newsDetailVC, animated: true)
-//    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let newsDetailVC = storyboard?.instantiateViewController(withIdentifier: "NewsDetailVC") as! NewsDetailVC
+        newsDetailVC.news = news[indexPath.row]
+        navigationController?.pushViewController(newsDetailVC, animated: true)
+    }
 }
