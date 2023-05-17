@@ -17,14 +17,14 @@ public struct News: Decodable {
     public let title: String?
     public let abstract: String?
     public let url: String?
-   public let byline: String?
-    //let publishedDate: Date?
+    public let byline: String?
+    let publishedDate: Date?
     public let multimedia: [Multimedia]?
 
-//    enum CodingKeys: String, CodingKey {
-//        case title, abstract, url, byline, multimedia
-//        case publishedDate = "published_date"
-//    }
+    enum CodingKeys: String, CodingKey {
+        case title, abstract, url, byline, multimedia
+        case publishedDate = "published_date"
+    }
 }
 
 // MARK: - Multimedia
