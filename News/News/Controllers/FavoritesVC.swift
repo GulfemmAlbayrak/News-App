@@ -4,27 +4,45 @@
 //
 //  Created by Gülfem Albayrak on 17.05.2023.
 //
-
+import CoreData
+import NewsAPI
 import UIKit
 
+
 class FavoritesVC: UIViewController {
-    static var news = [String]()
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    var favoriteNews: [News] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        configureTableView()
+        
     }
+    private func configureTableView() {
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.register(UINib(nibName: "FavoriteNewsCell", bundle: nil), forCellReuseIdentifier: "FavoriteNewsCell")
+    }
+   
     
+  
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension FavoritesVC: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return favoriteNews.count
     }
-    */
 
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FavoriteNewsCell", for: indexPath) as! FavoriteNewsCell
+        let news = favoriteNews[indexPath.row]
+        //cell.configure(news: news)
+        return cell
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // Seçili hücreye tıklandığında yapılacak işlemleri buraya ekleyin
+    }
 }

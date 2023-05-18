@@ -26,6 +26,8 @@
 		D77A36C32A13A1B3009CDFED /* NewsAPI in Frameworks */ = {isa = PBXBuildFile; productRef = D77A36C22A13A1B3009CDFED /* NewsAPI */; };
 		D77A36C52A13AADD009CDFED /* NewsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77A36C42A13AADD009CDFED /* NewsDetailVC.swift */; };
 		D77A36C72A143DE4009CDFED /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77A36C62A143DE4009CDFED /* FavoritesVC.swift */; };
+		D77A36CE2A150F9E009CDFED /* FavoriteNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77A36CC2A150F9E009CDFED /* FavoriteNewsCell.swift */; };
+		D77A36CF2A150F9E009CDFED /* FavoriteNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77A36CD2A150F9E009CDFED /* FavoriteNewsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		D77A36412A138D7A009CDFED /* LoadingShowable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingShowable.swift; sourceTree = "<group>"; };
 		D77A36C42A13AADD009CDFED /* NewsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailVC.swift; sourceTree = "<group>"; };
 		D77A36C62A143DE4009CDFED /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		D77A36CC2A150F9E009CDFED /* FavoriteNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteNewsCell.swift; sourceTree = "<group>"; };
+		D77A36CD2A150F9E009CDFED /* FavoriteNewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteNewsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 			children = (
 				D74784262A13826800449302 /* NewsCell.swift */,
 				D74784272A13826800449302 /* NewsCell.xib */,
+				D77A36CC2A150F9E009CDFED /* FavoriteNewsCell.swift */,
+				D77A36CD2A150F9E009CDFED /* FavoriteNewsCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -309,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D74783FE2A13817C00449302 /* LaunchScreen.storyboard in Resources */,
+				D77A36CF2A150F9E009CDFED /* FavoriteNewsCell.xib in Resources */,
 				D74783FB2A13817C00449302 /* Assets.xcassets in Resources */,
 				D74784292A13826800449302 /* NewsCell.xib in Resources */,
 				D74783F62A13817C00449302 /* Main.storyboard in Resources */,
@@ -337,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D77A36C72A143DE4009CDFED /* FavoritesVC.swift in Sources */,
+				D77A36CE2A150F9E009CDFED /* FavoriteNewsCell.swift in Sources */,
 				D74783F32A13817C00449302 /* NewsVC.swift in Sources */,
 				D77A36C52A13AADD009CDFED /* NewsDetailVC.swift in Sources */,
 				D74783EF2A13817C00449302 /* AppDelegate.swift in Sources */,

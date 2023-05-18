@@ -4,8 +4,8 @@
 //
 //  Created by Gülfem Albayrak on 16.05.2023.
 //
-import UIKit
 import NewsAPI
+import UIKit
 
 class NewsVC: UIViewController, LoadingShowable {
     
@@ -24,7 +24,6 @@ class NewsVC: UIViewController, LoadingShowable {
         configureTableView()
         loadLogo()
         LoadingView.shared.configure()
-        
     }
     
     fileprivate func fetcNews() {
@@ -38,17 +37,15 @@ class NewsVC: UIViewController, LoadingShowable {
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
                 }
-                
             case .failure(let error):
                 print("API request failed with error: \(error)")
             }
         }
-        
     }
     
     
     private func loadLogo() {
-        if let logo = UIImage(named: "nyt_logo") {
+        if let logo = UIImage(named: "nyt_header") {
             let newLogo = Util.app.resizeImageWithAspect(image: logo, scaledToMaxWidth: 250, maxHeigth: 2)
             let imageView = UIImageView(image: newLogo)
             self.navigationItem.titleView = imageView
@@ -63,7 +60,6 @@ class NewsVC: UIViewController, LoadingShowable {
     
 }
 
-
 extension NewsVC: UITableViewDelegate, UITableViewDataSource  {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return news.count
@@ -74,7 +70,6 @@ extension NewsVC: UITableViewDelegate, UITableViewDataSource  {
         let newsResult = self.news[indexPath.row]
         cell.configure(news: newsResult)
         return cell
-
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

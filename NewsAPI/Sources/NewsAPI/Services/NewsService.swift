@@ -39,43 +39,4 @@ public class NewsService: NewsServiceProtocol {
         }
     }
 }
-//}
-//enum NetworkError: Error {
-//    case noDataAvailable
-//    case cannotProcessData
-//}
-//
-//struct NetworkCaller {
-//    static let shared = NetworkCaller()
-//    
-//     let apiKey = "EF0AST1GsfGVaGQEtNqj5Ac88oPry7Dh"
-//     let baseUrlString = "https://api.nytimes.com/svc/topstories/v2"
-//    
-//    private var topHeadlinesUrl: URL? {
-//        let urlString = "\(baseUrlString)/home.json?api-key=\(apiKey)"
-//        return URL(string: urlString)
-//    }
-//    
-//    func getTopStories(completion: @escaping (Result<[NewsResult], NetworkError>) -> Void) {
-//        guard let url = topHeadlinesUrl else {
-//            completion(.failure(.cannotProcessData))
-//            return
-//        }
-//        
-//        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-//            guard let data = data, error == nil else {
-//                completion(.failure(.noDataAvailable))
-//                return
-//            }
-//            
-//            do {
-//                let response = try JSONDecoder().decode(News.self, from: data)
-//                completion(.success(response.results!))
-//            } catch {
-//                completion(.failure(.cannotProcessData))
-//            }
-//        }
-//        
-//        task.resume()
-//    }
-//}
+

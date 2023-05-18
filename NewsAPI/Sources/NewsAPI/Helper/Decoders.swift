@@ -16,3 +16,12 @@ public enum Decoders {
         return decoder
     }()
 }
+
+public enum DateFormatters {
+    public static func mediumStyleFormatter() -> DateFormatter {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .short
+        return dateFormatter
+    }
+}

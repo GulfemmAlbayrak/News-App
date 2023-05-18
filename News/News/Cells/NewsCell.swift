@@ -32,6 +32,7 @@ class NewsCell: UITableViewCell {
     }
     
     func configure(news: News) {
+        design()
         titleLabel.text = news.title
         authorLabel.text = news.byline
         if let multimedia = news.multimedia?.first, let url = URL(string: multimedia.url!) {
@@ -39,6 +40,10 @@ class NewsCell: UITableViewCell {
             } else {
                 newsImage.image = nil
             }
+    }
+    
+    func design(){
+        newsImage.layer.cornerRadius = 3
     }
     
 }
