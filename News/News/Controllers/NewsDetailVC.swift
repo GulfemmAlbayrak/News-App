@@ -85,11 +85,9 @@ class NewsDetailVC: UIViewController {
             }
             let context = appDelegate.persistentContainer.viewContext
             
-            // Check if the news is already in favorites
             let newsIsInFavorites = checkNewsIsInFavorites()
             
             if newsIsInFavorites {
-                // Remove the news from favorites
                 let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "FavoriteNews")
                 fetchRequest.predicate = NSPredicate(format: "favNewsTitle == %@", news.title ?? "")
                 fetchRequest.fetchLimit = 1
@@ -105,7 +103,6 @@ class NewsDetailVC: UIViewController {
                     print("Failed to remove favorite news item: \(error), \(error.userInfo)")
                 }
             } else {
-                // Add the news to favorites
                 let favoriteNewsEntity = NSEntityDescription.entity(forEntityName: "FavoriteNews", in: context)
                 let favoriteNews = NSManagedObject(entity: favoriteNewsEntity!, insertInto: context)
                 
@@ -121,7 +118,6 @@ class NewsDetailVC: UIViewController {
                 }
             }
             
-            // Toggle the filled and empty heart icon
             isLikeButtonFilled = !isLikeButtonFilled
             
             if isLikeButtonFilled {

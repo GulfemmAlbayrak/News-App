@@ -25,9 +25,6 @@
 		D77A36422A138D7A009CDFED /* LoadingShowable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77A36412A138D7A009CDFED /* LoadingShowable.swift */; };
 		D77A36C32A13A1B3009CDFED /* NewsAPI in Frameworks */ = {isa = PBXBuildFile; productRef = D77A36C22A13A1B3009CDFED /* NewsAPI */; };
 		D77A36C52A13AADD009CDFED /* NewsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77A36C42A13AADD009CDFED /* NewsDetailVC.swift */; };
-		D77A36C72A143DE4009CDFED /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77A36C62A143DE4009CDFED /* FavoritesVC.swift */; };
-		D77A36CE2A150F9E009CDFED /* FavoriteNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77A36CC2A150F9E009CDFED /* FavoriteNewsCell.swift */; };
-		D77A36CF2A150F9E009CDFED /* FavoriteNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77A36CD2A150F9E009CDFED /* FavoriteNewsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +66,6 @@
 		D747842F2A1389B900449302 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		D77A36412A138D7A009CDFED /* LoadingShowable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingShowable.swift; sourceTree = "<group>"; };
 		D77A36C42A13AADD009CDFED /* NewsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailVC.swift; sourceTree = "<group>"; };
-		D77A36C62A143DE4009CDFED /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
-		D77A36CC2A150F9E009CDFED /* FavoriteNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteNewsCell.swift; sourceTree = "<group>"; };
-		D77A36CD2A150F9E009CDFED /* FavoriteNewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteNewsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				D74784222A13822D00449302 /* Helpers */,
-				D74784232A13823600449302 /* View */,
+				D74784232A13823600449302 /* Loading */,
 				D74784242A13823E00449302 /* Cells */,
 				D74784252A13824700449302 /* Controllers */,
 				D74783EE2A13817C00449302 /* AppDelegate.swift */,
@@ -166,13 +160,14 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		D74784232A13823600449302 /* View */ = {
+		D74784232A13823600449302 /* Loading */ = {
 			isa = PBXGroup;
 			children = (
 				D747842D2A1389A300449302 /* LoadingView.swift */,
 				D77A36412A138D7A009CDFED /* LoadingShowable.swift */,
 			);
-			path = View;
+			name = Loading;
+			path = "LoadingVİew";
 			sourceTree = "<group>";
 		};
 		D74784242A13823E00449302 /* Cells */ = {
@@ -180,8 +175,6 @@
 			children = (
 				D74784262A13826800449302 /* NewsCell.swift */,
 				D74784272A13826800449302 /* NewsCell.xib */,
-				D77A36CC2A150F9E009CDFED /* FavoriteNewsCell.swift */,
-				D77A36CD2A150F9E009CDFED /* FavoriteNewsCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -191,7 +184,6 @@
 			children = (
 				D74783F22A13817C00449302 /* NewsVC.swift */,
 				D77A36C42A13AADD009CDFED /* NewsDetailVC.swift */,
-				D77A36C62A143DE4009CDFED /* FavoritesVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -315,7 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D74783FE2A13817C00449302 /* LaunchScreen.storyboard in Resources */,
-				D77A36CF2A150F9E009CDFED /* FavoriteNewsCell.xib in Resources */,
 				D74783FB2A13817C00449302 /* Assets.xcassets in Resources */,
 				D74784292A13826800449302 /* NewsCell.xib in Resources */,
 				D74783F62A13817C00449302 /* Main.storyboard in Resources */,
@@ -343,8 +334,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D77A36C72A143DE4009CDFED /* FavoritesVC.swift in Sources */,
-				D77A36CE2A150F9E009CDFED /* FavoriteNewsCell.swift in Sources */,
 				D74783F32A13817C00449302 /* NewsVC.swift in Sources */,
 				D77A36C52A13AADD009CDFED /* NewsDetailVC.swift in Sources */,
 				D74783EF2A13817C00449302 /* AppDelegate.swift in Sources */,
