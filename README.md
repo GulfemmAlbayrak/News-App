@@ -25,3 +25,13 @@
 | Vertical                     | Horizontal                 |           
 | ---------------------------- | -------------------------- | 
 | ![Vertical](https://media.giphy.com/media/WnuDzdizuh3DtjwP9s/giphy.gif) | ![Horizontal](https://media.giphy.com/media/SsRjJZUSWZug9TcS7z/giphy.gif) |
+
+## Commit History
+
+- 2023-05-18: done (commit hash: abcdefg)
+- 2023-05-18: Added AppIcocn, favorite news saved in core data (commit hash: abcdefg)
+- 2023-05-17: Added scroll view (commit hash: hijklmn)
+- 2023-05-16: Added logo (commit hash: opqrstu)
+- 2023-05-16: Added DetailNewsVC and SafariServices (commit hash: vwxyz123)
+- 2023-05-16: NewsVC and network request is done (commit hash: dbfdb3bc0c4578ec774b84c2006897ece8b1cd77)
+
