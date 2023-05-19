@@ -28,7 +28,7 @@
 
 ## Commit History
 
-- 2023-05-18: done 
+- 2023-05-19: done 
 - 2023-05-18: Added AppIcocn, favorite news saved in core data
 - 2023-05-17: Added scroll view 
 - 2023-05-16: Added logo
