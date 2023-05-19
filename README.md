@@ -21,4 +21,4 @@
 
 | Horizontal                   | Vertical                   |           
 | ---------------------------- | -------------------------- | 
-| ![-](https://media.giphy.com/media/WnuDzdizuh3DtjwP9s/giphy.gif) | 
+| ![-](https://media.giphy.com/media/WnuDzdizuh3DtjwP9s/giphy.gif) | ![-]((https://media.giphy.com/media/WnuDzdizuh3DtjwP9s/giphy.gif) |
