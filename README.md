@@ -33,5 +33,5 @@
 - 2023-05-17: Added scroll view (commit hash: 551c360)
 - 2023-05-16: Added logo (commit hash: cad7865)
 - 2023-05-16: Added DetailNewsVC and SafariServices (commit hash: 7998c2c)
-- 2023-05-16: NewsVC and network request is done (commit hash: dbfdb3b)
+- 2023-05-16: NewsVC and network request is done (commit hash: dbfdb3bc0c4578ec774b84c2006897ece8b1cd77)
 
