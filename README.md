@@ -1,6 +1,6 @@
 # The New York Times App
 
-##New York Times App is an iOS application that allows users to read news articles.The app utilizes the New York Times API to fetch the latest news and presents it to users through a user-friendly interface.
+### The New York Times App is an iOS application that allows users to read news articles.The app utilizes the New York Times API to fetch the latest news and presents it to users through a user-friendly interface.
 
 ##Features
 - Top Stories: The app fetches the latest top stories from the NYT API and displays them in a table view.
@@ -13,4 +13,4 @@
 - SDWebImage: Used for downloading and caching images. It provides an easy way to load and display images from URLs obtained from the New York Times API.
 - Core Data: Enables data persistence for saving favorite news articles.
 
-###Additionally, for modular code organization, the project includes separate modules like NewsAPI, which contains service and model files for interacting with the New York Times API.
+##Additionally, for modular code organization, the project includes separate modules like NewsAPI, which contains service and model files for interacting with the New York Times API.
