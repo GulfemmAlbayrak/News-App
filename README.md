@@ -16,4 +16,4 @@
  Additionally, for modular code organization, the project includes separate modules like NewsAPI, which contains service and model files for interacting with the New York Times API.
 
 | Media                        | 
-| <img src="[link1](https://github.com/GulfemmAlbayrak/HW2_GulfemAlbayrak/assets/101430350/069336ca-c5b6-4882-9a99-e56d48762a40)" width="300px"> | <img src="[link2](https://github.com/GulfemmAlbayrak/HW2_GulfemAlbayrak/assets/101430350/ab0b5b21-d4a8-4e57-8d56-e0d964b1c3bc)" width="300px"> | <img src="[link3](https://github.com/GulfemmAlbayrak/HW2_GulfemAlbayrak/assets/101430350/fb2fe986-7850-404d-bed9-ac6b4f39f303)" width="300px"> 
+| <img src="https://github.com/GulfemmAlbayrak/HW2_GulfemAlbayrak/assets/101430350/069336ca-c5b6-4882-9a99-e56d48762a40" width="300px"> | <img src="https://github.com/GulfemmAlbayrak/HW2_GulfemAlbayrak/assets/101430350/ab0b5b21-d4a8-4e57-8d56-e0d964b1c3bc" width="300px"> | <img src="https://github.com/GulfemmAlbayrak/HW2_GulfemAlbayrak/assets/101430350/fb2fe986-7850-404d-bed9-ac6b4f39f303" width="300px"> 
