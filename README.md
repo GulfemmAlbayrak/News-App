@@ -7,13 +7,14 @@
 - Detail Page: Tapping on a table view cell opens a detail page that shows additional information about the selected story.
 - Data Persistence: Users can save stories to their device using Core Data.
 - See More: The detail page includes a "See More" button that opens the corresponding article in the user's default web browser using SafariService.
+- Additionally, for modular code organization, the project includes separate modules like NewsAPI, which contains service and model files for interacting with the New York Times API.
  
 ## Dependencies
 - Alamofire: A networking library used for making API requests.
 - SDWebImage: Used for downloading and caching images. It provides an easy way to load and display images from URLs obtained from the New York Times API.
 - Core Data: Enables data persistence for saving favorite news articles.
 
- Additionally, for modular code organization, the project includes separate modules like NewsAPI, which contains service and model files for interacting with the New York Times API.
+ 
 
 | Top Stories                  | News Detail                |  SafariServices            |
 | ---------------------------- | -------------------------- | -------------------------- |
