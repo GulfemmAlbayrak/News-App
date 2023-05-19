@@ -15,7 +15,7 @@
 - SDWebImage: Used for downloading and caching images. It provides an easy way to load and display images from URLs obtained from the New York Times API.
 - Core Data: Enables data persistence for saving favorite news articles.
 
- 
+ ## Media
 
 | Top Stories                  | News Detail                |  SafariServices            |
 | ---------------------------- | -------------------------- | -------------------------- |
