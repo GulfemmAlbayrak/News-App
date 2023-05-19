@@ -28,10 +28,10 @@
 
 ## Commit History
 
-- 2023-05-18: done (commit hash: abcdefg)
-- 2023-05-18: Added AppIcocn, favorite news saved in core data (commit hash: abcdefg)
-- 2023-05-17: Added scroll view (commit hash: hijklmn)
-- 2023-05-16: Added logo (commit hash: opqrstu)
-- 2023-05-16: Added DetailNewsVC and SafariServices (commit hash: vwxyz123)
-- 2023-05-16: NewsVC and network request is done (commit hash: dbfdb3bc0c4578ec774b84c2006897ece8b1cd77)
+- 2023-05-18: done (commit hash: 965cd75)
+- 2023-05-18: Added AppIcocn, favorite news saved in core data (commit hash: f8c2cb2)
+- 2023-05-17: Added scroll view (commit hash: 551c360)
+- 2023-05-16: Added logo (commit hash: cad7865)
+- 2023-05-16: Added DetailNewsVC and SafariServices (commit hash: 7998c2c)
+- 2023-05-16: NewsVC and network request is done (commit hash: dbfdb3b)
 
