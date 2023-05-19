@@ -7,6 +7,7 @@
 - Detail Page: Tapping on a table view cell opens a detail page that shows additional information about the selected story.
 - Data Persistence: Users can save stories to their device using Core Data.
 - See More: The detail page includes a "See More" button that opens the corresponding article in the user's default web browser using SafariService.
+- Horizontal Scroll Support: To enable a smooth horizontal scrolling experience in the app, UIScrollView is utilized. This allows users to easily navigate through news articles by swiping horizontally.
 - Additionally, for modular code organization, the project includes separate modules like NewsAPI, which contains service and model files for interacting with the New York Times API.
  
 ## Dependencies
