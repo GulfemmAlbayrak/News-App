@@ -20,7 +20,7 @@
 
 | Top Stories                  | News Detail                |  SafariServices            |
 | ---------------------------- | -------------------------- | -------------------------- |
-| <img src="https://github.com/GulfemmAlbayrak/News-App/assets/101430350/069336ca-c5b6-4882-9a99-e56d48762a40" width="300px"> | <img src="https://github.com/GulfemmAlbayrak/News-App/assets/101430350/ab0b5b21-d4a8-4e57-8d56-e0d964b1c3bc" width="300px"> | <img src="https://github.com/GulfemmAlbayrak/News-App/assets/101430350/fb2fe986-7850-404d-bed9-ac6b4f39f303" width="300px"> |
+| <img src="https://github.com/GulfemmAlbayrak/News-App/assets/101430350/309b9ed1-001f-429f-b07e-f976af5911b8" width="300px"> | <img src="https://github.com/GulfemmAlbayrak/News-App/assets/101430350/b0c9abd7-24e4-439e-9da7-7a4844cffbbf" width="300px"> | <img src="https://github.com/GulfemmAlbayrak/News-App/assets/101430350/6fb00ddb-2b93-4f03-b2ee-8e073c36e236" width="300px"> |
 
 | Vertical                     | Horizontal                 |           
 | ---------------------------- | -------------------------- | 
